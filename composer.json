@@ -16,5 +16,7 @@
         "psr-4": {
             "DataFrost\\": "src/"
         }
-    }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
 }
