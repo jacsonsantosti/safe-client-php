@@ -1,0 +1,20 @@
+{
+    "name": "data-frost/safe-client",
+    "description": "Client HTTPS para enviar arquivos ao cofre eletronico",
+    "type": "library",
+    "require": {
+        "guzzlehttp/guzzle": "^6.5"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jacson Santos",
+            "email": "jacsonk47@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "DataFrost\\": "src/"
+        }
+    }
+}
